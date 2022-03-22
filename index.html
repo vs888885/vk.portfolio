@@ -1,39 +1,218 @@
-<!DOCTYPE html>
+<!DOCTYPE html
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-
     <title>Kumar</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      
+    ></script>
   </head>
-  <body>
-    <nav class="navbar">
-      <div class="brand-title">Vipul Kumar</div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
 
-      <div class="navbar-links">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
+  <body>
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo">Vipul Kumar</div>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="#languages"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Skills</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#projects"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="vkumar845845@gmail.com"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Contact</a> 
+            </li>
+            <div class= "footer__row">
         </ul>
+          
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+              <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+              <div class="ball"></div>
+            </label>
+          
+        </div>
+      </nav>
+    
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            
+            
+</figure>
+            <h1 class="about-me__info--title">
+              Hey! I'm <span class="name">Vipul Kumar</span><span
+                class="wave"
+                >👋</span
+              >
+            </h1>
+            <p class="about-me__info--para">
+              I'm a self-taught front-end software engineer with a experience in product & project management
+            </p>
+          
+          </div>
+          <figure class="about-me__img--container">
+            <img
+              src="https://assets.atlanticbt.com/content/uploads/2019/12/g_feature-web-development-3.svg"
+              class="about-me__img"
+              alt="website builing logo"
+            />
+          </figure>
+        </div>
       </div>
-    </nav>
-    <div class="container">
-      <div class="text">
-        <h1>
-          Hey!<span class="wave">👋</span><br />
-          I'm Vipul Kumar
-        </h1>
-      </div class = "sizeterp">
-      <div class="terp"><img src="img/umd.png" alt="maryland" /></div>
-    </div>
+    </section class="color"> 
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are my <span class="text--purple">skills</span>
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  alt="Html Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">HTML</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  alt="CSS Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  alt="JavaScript Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">JavaScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src= "https://iconape.com/wp-content/png_logo_vector/database.png"
+                  alt="SQL Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">SQL</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/microsoft-office-722717.png"
+                  alt="Microsoft logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">Microsoft Office</span>
+            </div>
+              
+            </div>
+          
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="change">
+            Here are some of my <span class="projectcolor">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="https://www.sportico.com/wp-content/uploads/2022/02/coinbase.jpeg"
+                  class="project__img"
+                  alt="Coinbase logo"
+                 
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Coinbase
+                     Capstone Project</h3>
+                  <h4 class="project__description--sub-title">
+                    PowerPoint.Asana
+                  </h4>
+                  <p class="project__description--para">
+                    Product Requirement Document (PRD) * User Persona * Analytics and Key Performance Indicator (KPI) * Wireframe
+                  </p>
+                  <div class="project__description--links">
+              <a
+                      href="https://docs.google.com/presentation/d/1fMwS3rJmg4hC5XgsrE9c2F2M1I_bGytNRcPOW-cGM_4/edit#slide=id.g11530fbeb6a_2_75"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/743/cached.offlinehbpl.hbpl.co.uk/news/ORP/Airbnbnewbrand-20140718083906597.jpg"
+                  class="project__img"
+                  alt="Car subscription project"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Airbnb Data Analysis
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Excel.Google Sheets.PowerPoint
+                  </h4>
+                  <p class="project__description--para">
+                    Data cleaning * Analysis * Visualization
+                  </p>
+                  <div class="project__description--links">
+                    
+                    <a  href="https://docs.google.com/presentation/d/1mTKK3maUiLWZVTTgl1v6z8iam6GDtQmesl7mri7pu0c/edit#slide=id.g1152c0574de_2_12"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+    </section>
+    <footer class="thiswork">
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        
+        <div class="footer__copyright">Copyright © 2022 Vipul Kumar</div>
+      </div>
+    </footer>
   </body>
+  <script src="script.js"></script>
+
 </html>
