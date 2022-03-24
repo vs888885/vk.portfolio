@@ -151,7 +151,6 @@ nav {
   animation: fade-up 650ms 400ms backwards;
 }
 .about-me__info--para {
-  white-space: nowrap;
   font-size: 23px;
   margin-bottom: 20px;
   animation: fade-up 650ms 600ms backwards;
